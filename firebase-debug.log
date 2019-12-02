@@ -1,0 +1,36 @@
+[debug] [2019-12-02T08:30:05.026Z] ----------------------------------------------------------------------
+[debug] [2019-12-02T08:30:05.028Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2019-12-02T08:30:05.028Z] CLI Version:   7.6.2
+[debug] [2019-12-02T08:30:05.028Z] Platform:      linux
+[debug] [2019-12-02T08:30:05.028Z] Node Version:  v13.2.0
+[debug] [2019-12-02T08:30:05.029Z] Time:          Mon Dec 02 2019 11:30:05 GMT+0300 (GMT+03:00)
+[debug] [2019-12-02T08:30:05.029Z] ----------------------------------------------------------------------
+[debug] [2019-12-02T08:30:05.029Z] 
+[debug] [2019-12-02T08:30:05.035Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-02T08:30:05.035Z] > authorizing via signed-in user
+[debug] [2019-12-02T08:30:05.035Z] [iam] checking project termeti-nentorit for permissions ["firebase.projects.get"]
+[debug] [2019-12-02T08:30:05.037Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/termeti-nentorit:testIamPermissions  
+
+[debug] [2019-12-02T08:30:06.136Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-02T08:30:06.139Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/termeti-nentorit  
+ 
+[debug] [2019-12-02T08:30:06.541Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/user/Desktop/termet'...
+[info] 
+[debug] [2019-12-02T08:30:06.549Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/termeti-nentorit/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "13"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-12-02T08:30:08.031Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/home/user/Desktop/termet/functions" for Cloud Functions...
+[debug] [2019-12-02T08:30:08.070Z] [worker-~diagnostic~-b2e9cf57-5a0c-45f2-9daa-216a55b18b32]: BUSY
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-12-02T08:30:08.346Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/user/Desktop/termet/functions","node_version":"13.2.0"}
+[debug] [2019-12-02T08:30:08.348Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-12-02T08:30:08.350Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"/home/user/Desktop/termet/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-12-02T08:30:08.351Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/user/Desktop/termet/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-12-02T08:30:08.352Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/user/Desktop/termet/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-12-02T08:30:08.409Z] [worker-~diagnostic~-b2e9cf57-5a0c-45f2-9daa-216a55b18b32]: exited
+[debug] [2019-12-02T08:30:08.409Z] [worker-~diagnostic~-b2e9cf57-5a0c-45f2-9daa-216a55b18b32]: FINISHED
